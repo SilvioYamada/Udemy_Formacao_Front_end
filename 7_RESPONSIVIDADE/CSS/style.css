@@ -1,0 +1,35 @@
+/* Media query */
+h1{
+    color: red;
+}
+@media screen and (max-width: 500px) {
+    h1{
+        color: blueviolet;
+    }
+}
+
+p {
+    background-color: rgb(146, 4, 4);
+    color: aliceblue;
+    font-size: 22px;
+}
+
+/* 3 - Min-widht */
+@media screen and (min-width: 800px) {
+    p {
+        background-color: rgb(71, 42, 165);
+        color: rgb(204, 149, 255);
+        font-size: 28px;
+    }
+}
+
+/* Landscape */
+h3 {
+    display: none;
+}
+
+@media screen and (orientation:landscape) {
+    h3 {
+        display: block;
+    }
+}

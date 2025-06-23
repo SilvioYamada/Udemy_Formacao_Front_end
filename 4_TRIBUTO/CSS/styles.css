@@ -1,0 +1,152 @@
+html {
+    font-family: Helvetica;
+    background-color: #ddd;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../CSS/imgs2/Background.jpg);
+}
+.container {
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    line-height: 10px;
+}
+.main-title {
+    font-size: 40px;
+}
+.main-paragraph {
+    font-style: italic;
+    color: grey;
+}
+
+/* Imagem de Destaque */
+.feature-image {
+    text-align: center;
+    margin-top: 30px;
+}
+.feature-image img {
+    border-radius: 20px;
+}
+
+/* Biograifa */
+.biograph-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+/* Quotes */
+.quotes-container {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 12px;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: rgb(204, 204, 204);
+}
+.quotes-container blockquote {
+    font-weight: bold;
+    font: 30px;
+}
+.quotes-container p {
+    font-style: italic;
+    font-size: 14px;
+    color: #585858;
+}
+
+/* Curiosidades */
+.curiosites-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+.curiosites-container li {
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Image Bold */
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+.img-bold img {
+    border-radius: 16px;
+}
+
+/* Mais Informações */
+.moreinfo-container {
+    padding: 25px 0;
+    margin: 25px 0;
+}
+.button {
+    border:solid 1px rgb(104, 104, 107);
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #68686b;
+    color:rgb(255, 255, 255);
+    display: block;
+    margin-top: 10px;
+    
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    background-color: #a5a5a5;
+    color: white;
+    
+}
+.redes-footer {
+    background-color: #eee;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px 0;
+    margin: 25px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 4em;
+    padding: 2em 0;
+}
+
+.footer-links-title {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #585858;
+}
+
+.redes-sociais { 
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.footer-icons {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+}

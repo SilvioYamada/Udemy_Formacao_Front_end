@@ -1,0 +1,607 @@
+/* 4 External */
+body {
+    padding-bottom: 1500px;
+}
+
+h3 {
+    color: green;
+    font-size: 25px;
+}
+
+/* p {
+    color: blueviolet;
+} */
+
+/* Algum comentario no doc /*
+
+/* Classes */
+.paragraph {
+    background-color: black;
+    color: beige;
+    font-size: 45px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* IDs */
+#exclusive-title {
+    background-color: blueviolet;
+    color: blanchedalmond;
+    padding: 10px;
+    font-size: 22px;
+    font-family: Tahoma;
+}
+
+/* Multiplas regras, ordem do CSS */
+h1 {
+    border-bottom: 2px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+   
+}
+
+#algum-titulo {
+    border-bottom: 3px solid blue;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+  
+}
+
+.titulo {
+    border-bottom: 4px solid green;
+    background-color: aqua;
+}
+
+/* Nome da cor */
+.color-name {
+    color:crimson
+}
+
+/* HEX */
+.hex {
+    color:#245678
+}
+
+.hex-2 {
+    color: #a85913;
+}
+
+/* Aprofundando em Hex */
+.simple-hex{
+    color:#123
+}
+.simple-hex-2{
+    color: #a5a;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(255,0,0)
+}
+.rgb-2 {
+    color:rgb(9, 4, 156)
+}
+
+/* RGBA */
+.rgba {
+    color:rgba(100, 199, 45, 0.4)
+}
+
+/* hsl */
+.hsl {
+    color: hsl(300, 100%, 37%)
+}
+.hsl-2 {
+    color:hsl(40, 92%, 38%)
+}
+
+/* Background */
+.bg {
+    background-color: #245678;
+}
+
+.bg-2 {
+    background-color: #a5a;
+    color: black;
+}
+
+/* Background opacity */
+.bg-opacity {
+    background-color: aqua;
+    opacity: 0.2;
+}
+
+.bg-opacity-2{
+    background-color: #999;
+    color: #000;
+    opacity: 0.8;
+}
+
+/* RBGA com opacidade */
+.rgba-opacity {
+    background-color:rgba(90, 120, 120,0.2);
+    font-size: 40px;
+}
+
+/* BG com imagem */
+.bg-image {
+    padding-top: 40px;
+    background-image: url("../CSS/img/ENGLISH.jpg");
+    font-size: 20px;
+    font-family: monospace;
+    padding: 60px;
+    color: azure;
+}
+
+/* Centralizando imagem do Background */ 
+.not-centered-bg,
+.centered-bg {
+    height: 500px;
+    width: 500px;
+    color: aliceblue;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-block: 10px;
+    border-radius: 40px;
+    background-image: url(../CSS/img/circuit-board-and-ai-micro-processor-artificial-i-2023-11-27-05-28-41-utc.jpg);
+}
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+    padding: 50px 50px;
+    /*padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;*/
+    box-shadow: 0px 0px, -2px 8px 20px 20px rgb(13, 16, 21,0.6);
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+/* Largura e Altura */
+.height-width{
+    height: 200px;
+    width: 100;
+    background-color: #a5a;
+}
+.height-width-2 {
+    height: 300px;
+    background-color: #123;
+}
+
+/* Paddind */
+.without-padding,
+.padding {
+    background-color: #06c79a;
+    color: aliceblue;
+}
+
+.padding {
+    padding: 20px;
+    background-color: #4315d9;
+}
+
+/* Paddind Individuais */
+.paddind-individual {
+    background-color: #000;
+    color:aliceblue;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+/* Shorthand Padding */
+.shorthand-padding {
+    background-color: #c5ffcf;
+    color:#000;
+    padding: 100px 5px 12px 100px;
+}
+.shorthand-padding-2 {
+    background-color: #4315d9;
+    color: aqua;
+    padding: 50px 0px;
+}
+
+/* Padding com Width - Box Sizing-Border-Box */
+.without-border-box {
+    background: #a85913;
+    color:aliceblue;
+    width: 400px;
+    padding: 50px;    
+}
+.border-box{
+    background: #a85913;
+    color:aliceblue;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-image: url(../CSS/img/circuit-board-and-ai-micro-processor-artificial-i-2023-11-27-05-28-41-utc.jpg);
+    border-radius: 0px 40px 20px 40px;
+}
+/* Praticando regras de estilo em elemento - Botão */
+.botao{
+    border:solid 1px blue;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(73, 1, 255);
+    color:rgb(224, 224, 255);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    padding: 20px 20px;
+    box-sizing: border-box; 
+}
+
+.botao:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+
+/* Border */
+.border{
+    border: 5px solid burlywood;
+    padding: 10px;
+}
+.border-2{
+    border: 2px dotted cornflowerblue;
+    padding: 25px;
+}
+
+/* Borda Individual */
+.border-left{
+    border-left: 8px solid #06c79a;
+    padding: 25px;
+    background-color: antiquewhite;
+    color:#06c79a
+}
+.border-bottom{
+    border-bottom: 10px double #ff00a6;
+    padding: 20px;
+    background-color: thistle;
+    color: #123;
+}
+
+/* Borda Arredondadas */
+
+.rounded-p {
+    border: 6px solid green;
+    background-color: antiquewhite;
+    color:#123;
+    padding: 25px;
+    border-radius: 6px;
+}
+.rounded-p-2 {
+    background-color: antiquewhite;
+    color:#123;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+/* Margem */
+.margin {
+    margin: 10px;
+    background-color: #999;
+}
+.margin-top {
+    margin-top: 50px;
+    background-color: wheat;
+    padding: 10px;
+}
+.margin-shorthand {
+    color: #4315d9;
+    margin: 5px 10px 15px 20px;
+}
+
+/* Box Molde*/
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 2px solid #05dcce;
+    border-radius: 10px;
+    width: 200;
+    height: 400;
+}
+/* Desafio 3 Box Model */
+#box-model-challenge {
+    margin: 10px;
+    padding: 28px;
+    border: 5px solid #a85913;
+    border-radius: 40px;
+    background-position: center;
+    background-size: cover;
+    outline: 6px dashed #05dcce;
+    grid-template-columns: auto;
+    background-image: url(../CSS/img/circuit-board-and-ai-micro-processor-artificial-i-2023-11-27-05-28-41-utc.jpg);
+}
+.challenge-title {
+    background-color: rgba(122, 122, 122, 0.8);
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+}
+.subtitulo-box-model {
+    font-size: 16px;
+    color: rgb(238, 235, 255);
+    text-align: center;
+    font-family: 'Courier New';
+}
+
+/* Text Alignment */
+.text-aligned {
+    text-align: right;
+}
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 4px solid #c5ffcf;
+}
+
+/* Text Decoration */
+.underline {
+    text-decoration:underline;
+}
+.line-trough {
+    text-decoration: line-through;
+}
+.remove-underline {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+.remove-underline:hover {
+    background-color: rgb(100, 100, 241);
+    color: white;
+    transform: scale(1.2);
+    padding: 20px;
+}
+/* Text Transform */
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+/* Letter Spacing */
+.spacing {
+    letter-spacing: 5px;
+}
+
+/* Fontes */
+.serif {
+    font-family: Georgia;
+}
+
+.san-serif {
+    font-family:'Helvetica';
+}
+
+.monospace {
+    font-family:'Courier New';
+}
+
+.cursive {
+    font-family:cursive;
+}
+
+.fantasy {
+    font-family:fantasy;
+}
+
+/* Font Style */
+.italic {
+    font-style: italic;
+}
+.oblique {
+    font-style: oblique;
+}
+
+/* Font Weight */
+.thin, .bold, .bolder {
+    font-family: Helvetica;
+}
+.thin {
+    font-weight: 100;
+}
+.bold {
+    font-weight: 600;
+}
+.bolder {
+    font-weight: 900;
+}
+
+/* Font Size */
+.small {
+    font-size: 10px;
+    color: #000;
+}
+
+.big {
+    font-size: 70px;
+    color:hsla(254, 82%, 47%, 0.412);   
+}
+
+/* Display */
+.inline-box {
+    width: 150px;
+    height: 150px;
+    background-color: #4315d9;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    align-content: center;
+    color:#ffffff;
+    display: inline-block;
+}
+.block {
+    background-color: #1584d9;
+    height: 100px;
+    color:#0c0a0a;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    box-sizing: border-box; 
+    display: block;
+}
+
+.invisible {
+    display: none;
+    background-color: #999;
+}
+
+/* Statc */
+
+.static {
+    position: static;
+    color: #06c79a;
+    background: #0c0a0a;
+    width: 100px;
+    height: 100px;
+}
+
+/* Relative */
+.relative {
+    position: relative;
+    color: #4315d9;
+    background-color: #c5ffcf;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;   
+}
+/* Absolute */
+.absolute {
+    position: absolute;
+    color: #e2d9ff;
+    background-color: #49025f;
+    width: 100px;
+    height: 100px;
+    /* top: 5px; */
+    right: 5px;
+}
+
+/* Relative com Absolute */
+.relative-container {
+    width: 400px;
+    height: 400px;
+    border: 2px, solid, #4315d9;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.absolute-1,
+.absolute-2,.absolute-3,.absolute-4 {
+    width: 50px;
+    height: 50px;
+    background-color: #ff00a6;
+    position: absolute;
+}
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+.absolute-3 {
+    bottom: 10px;
+    left: 10px;
+    
+}
+
+.absolute-4 {
+    top: 10px;
+    right: 10px;
+}
+
+/* Fixed */
+.fixed-ADS {
+    width: 150px;
+    height: 100px;
+    border: 6px, solid, #00000018;
+    border-radius: 22px;
+    color: rgb(5, 82, 91);
+    font-weight: 900;
+    font-family: Helvetica;
+    background-color: #05dcce;
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    top: 800px;
+    right: 50px;
+    text-transform: uppercase;  
+    line-height: 1.5;
+    box-shadow: 0px 0px, 0px 8px 16px 8px rgba(13, 16, 21, 0.198);
+}
+
+/* Stick */
+.sticky {
+    width: 300px;
+    height: 100px;
+    border: 6px, solid, #00000018;
+    border-radius: 22px;
+    color: rgb(5, 82, 91);
+    font-weight: 900;
+    font-family: Helvetica;
+    background-color: #05dcce;
+    position: sticky;
+    text-align: center;
+    align-content: center;
+    top: 10px;
+    left: 20px;
+    text-transform: uppercase;  
+    line-height: 1.5;
+    box-shadow: 0px 0px, 0px 8px 16px 8px rgba(13, 16, 21, 0.198);
+}
+
+/* Z-index */
+.absolute-5,
+.absolute-6,.absolute-7,.absolute-8 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: 0;
+}
+.absolute-5 {
+    top: 20px;
+    left: 40px;
+    background-color: #49025f;
+    z-index: 1;
+    color: white;
+}
+.absolute-6 {
+    top: 45px;
+    left: 55px;
+    color: white;
+    z-index: 2;
+    background-color: #1584d9;
+}
+.absolute-7 {
+    top: 60px;
+    left: 75px;
+    color: white;
+    z-index: 3;
+    background-color: #0c0a0a;
+}
+.absolute-8 {
+    top: 70px;
+    left: 100px;
+    z-index: 4;
+    color: white;
+    background-color: #06c79a;
+}

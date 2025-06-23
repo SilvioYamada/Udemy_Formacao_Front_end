@@ -1,0 +1,142 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f0ebf8;
+}
+h1,h2,h3,h4,h5 {
+    color: #333;
+}
+p,label {
+    color: #444;
+}
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 6px;
+}
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=file],
+textarea {
+    width: 770px;
+    height: 30px;
+}
+textarea {
+    padding: 10px 5px;
+    width: 770px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Page Header */
+.header {
+    height: 120px;
+    padding: 40px;
+    background-color: #673ab7;
+    text-align: center;
+}
+.header h3 {
+    color: #fff;
+    margin-top: 0;
+    font-size: 26px;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #fdfdfd;
+    width: 45%;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+    border-radius: 16px;
+    border: 1px, solid, #dadce0;
+    box-shadow: 0px 0px, 0px 2px 2px 2px rgba(13, 16, 21, 0.02);
+}
+/* Form Header */
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+.form-header p {
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+
+}
+
+/* Form body */
+.form-body {
+    padding: 30px;
+}
+.form-title {
+    padding-bottom: 15px;
+}
+.form-body p {
+    margin-bottom: 20px;
+}
+.required-field {
+    color: #d80835;
+}
+.box-input,::placeholder {
+    margin-bottom: 35px;
+    color: rgba(51, 51, 51, 0.52);
+}
+.block {
+    display: block;
+}
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+.optional-list li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.box-input p {
+    margin-bottom: 15px;
+}
+.reset {
+    background-color: #f0e8ff;
+    color: #673ab7;;
+    border: 2px solid transparent;
+    width: 180px;
+    height: 60px;
+    margin: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.reset:hover { 
+    background-color: #fff;
+    border-color: #814bdf;
+    color: #673ab7;
+}
+.btn-submit {
+    background-color: #673ab7;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.btn-submit:hover { 
+    background-color: #fff;
+    border-color: #814bdf;
+    color: #673ab7;
+}
